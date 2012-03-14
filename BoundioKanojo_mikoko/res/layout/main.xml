@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/main_activity_bodystring"
+        android:textSize="18sp">
+    </TextView>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/main_activity_bodystring"
+        android:textSize="18sp">
+    </TextView>
+    <Button
+        android:id="@+id/btnsend"
+        android:text="send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/btntest1"
+        android:text="test1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/btntest2"
+        android:text="test2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>

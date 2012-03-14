@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@android:drawable/dialog_frame">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Gyudon Tweet"
+        android:textColor ="#FFFFFF"
+        android:textSize="12dip">
+    </TextView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center">
+    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="72dip"
+            android:layout_height="60dip"
+            android:padding="5dip"
+            android:orientation="vertical" 
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/appwidget_button"
+            android:id ="@+id/widgetImageView1"
+            android:gravity="center">
+        
+            <ImageView 
+        	    android:layout_width = "wrap_content"
+        	    android:layout_height = "wrap_content"
+                android:src = "@drawable/yoshinoya"
+            />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="72dip"
+            android:layout_height="60dip"
+            android:padding="5dip"
+            android:orientation="vertical" 
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/appwidget_button"
+            android:id ="@+id/widgetImageView2"
+            android:gravity="center">
+            <ImageView 
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:src = "@drawable/matsuya"
+            />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="72dip"
+            android:layout_height="60dip"
+            android:padding="5dip"
+            android:orientation="vertical" 
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/appwidget_button"
+            android:id ="@+id/widgetImageView3"
+            android:gravity="center">
+        
+            <ImageView 
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:src = "@drawable/sukiya"
+            />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="72dip"
+            android:layout_height="60dip"
+            android:padding="5dip"
+            android:orientation="vertical" 
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/appwidget_button"
+            android:id ="@+id/widgetImageView4"
+            android:gravity="center">
+        
+            <ImageView 
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:src = "@drawable/nakau"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">AndroidKanojo</string>
+<string name="twitter_auth_error">認証に失敗しました。</string>
+<string name="btn_pin">PIN</string>
+<string name="twitter_timeline_title">TimeLine</string>
+<string name="no_timeline">タイムラインを取得していません。</string>
+<string name="auth_wait_message">Twitter認証中…</string>
+<string name="wait_timeline_message">タイムライン取得中…</string>
+<string name="main_activity_bodystring">認証は成功しています。このアプリではアクティビティなんて飾りです。</string>
+</resources>
